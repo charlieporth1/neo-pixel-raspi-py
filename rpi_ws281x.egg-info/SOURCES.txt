@@ -1,0 +1,5 @@
+README.md
+rpi_ws281x.egg-info/PKG-INFO
+rpi_ws281x.egg-info/SOURCES.txt
+rpi_ws281x.egg-info/dependency_links.txt
+rpi_ws281x.egg-info/top_level.txt

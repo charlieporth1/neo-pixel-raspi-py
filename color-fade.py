@@ -12,6 +12,7 @@ import os
 import subprocess
 import sys
 import utils as cc
+
 EPSILON = sys.float_info.epsilon  # Smallest possible difference.
 # LED strip configuration:
 LED_COUNT      = 32      # Number of LED pixels.
