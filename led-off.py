@@ -105,6 +105,7 @@ if __name__ == '__main__':
     else:
         print("Default opt")
         default_off(strip, 50)
+    kill()
 
 #    colorWipe(strip, Color(0,0,0), 5)
 
