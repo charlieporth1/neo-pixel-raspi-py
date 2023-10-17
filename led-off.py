@@ -90,6 +90,8 @@ if __name__ == '__main__':
     # Intialize the library (must be called once before other functions).
     strip.begin()
 
+    kill()
+    kill()
     # Create NeoPixel object with appropriate configuration.
     if args.hot:
         hot_off(strip, 50)
@@ -105,6 +107,7 @@ if __name__ == '__main__':
     else:
         print("Default opt")
         default_off(strip, 50)
+    kill()
     kill()
 
 #    colorWipe(strip, Color(0,0,0), 5)
