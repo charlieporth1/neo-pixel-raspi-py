@@ -90,8 +90,8 @@ if __name__ == '__main__':
     # Intialize the library (must be called once before other functions).
     strip.begin()
 
-    kill()
-    kill()
+#    kill()
+#    kill()
     # Create NeoPixel object with appropriate configuration.
     if args.hot:
         hot_off(strip, 50)
