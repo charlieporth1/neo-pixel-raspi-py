@@ -34,13 +34,7 @@ def colorWipe(strip, color, wait_ms = 50):
         strip.show()
 
 def define_colors(args):
-           colors = [(0, 0, 255), (0, 255, 0), (255, 0, 0)]  # [BLUE, GREEN, RED]
-           if args.more:
-               colors = [(0, 0, 255), (0, 255, 255),(0, 255, 0), (255, 255, 0), (255, 0, 0), (255, 0, 255)]  # [BLUE, GREEN, RED]
-
-           if args.white:
-               colors.append((0, 0, 0))
-               colors.append((255, 255, 255))
+           colors = [(255, 255, 255)]
 
            return colors
 
@@ -61,10 +55,7 @@ def slow_cycle(strip, args, colors = [], wait_ms = 100):
            delta = float(maxval-minval) / steps
            print('  Val       R    G    B')
            for i in range(steps+1):
-               val = minval + i*delta
-               r, g, b = cc.convert_to_rgb(minval, maxval, val, colors)
-               print('{:.3f} -> ({:3d}, {:3d}, {:3d})'.format(val, r, g, b))
-               colorWipe(strip, Color(r,g,b), wait_ms)
+               colorWipe(strip, Color(i,i,i), 1)
 
 # Main program logic follows:
 if __name__ == '__main__':
