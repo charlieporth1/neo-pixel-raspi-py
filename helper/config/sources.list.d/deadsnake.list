@@ -1,0 +1,3 @@
+deb https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu preciser main 
+deb-src https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu precise main 
+
