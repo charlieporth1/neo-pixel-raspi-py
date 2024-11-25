@@ -1,3 +1,3 @@
-deb https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main 
-deb-src https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main 
+deb [signed-by=/usr/share/keyrings/deadsnakes-ubuntu-ppa.gpg]  https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main 
+deb-src [signed-by=/usr/share/keyrings/deadsnakes-ubuntu-ppa.gpg] https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main 
 
