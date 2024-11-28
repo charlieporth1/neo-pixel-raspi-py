@@ -18,8 +18,10 @@ sudo apt install libatlas-base-dev
 sudo pip3 install vcgencmd
 sudo pip install rpi_ws281x
 sudo pip3 install rpi_ws281x --break-system-packages
+
 git submodule init
 git submodule update
+
 cd rpi_ws281x/python
 sudo python3 setup.py  install
 cd -
