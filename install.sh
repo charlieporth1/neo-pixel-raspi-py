@@ -5,6 +5,7 @@ sudo apt install -y python3-dev python3-pip scons cmake swig git
 sudo apt install -y build-essential python-dev git scons swig libzbar-dev libzbar0
 sudo apt install -y python python-pip libffi-dev python-backports.ssl-match-hostname
 sudo apt install -y python3-pip
+sudo apt install -y python3-full python3 python3-pip3
 sudo apt install libcblas-dev
 sudo apt install libhdf5-dev
 sudo apt install libhdf5-serial-dev
